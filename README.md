@@ -10,6 +10,6 @@ This was pretty good at wrecking my spirits then one of the people whowere looki
 Other then that the assignment seemed a lot more doable than yesterdays which I am happy about. Just everything else in the day ruined that for me.
 
 ### So what works?
-Well adding the names works pretty well. And thats all for the things that work flawlessly. Removing the names has to be done from the bottom to the top otherwise it'll break and that's about it. Everything else either doesn't work or works 1/10 times. Most of the time was spent just trying to figure out how to remove things from local stoarge in the first place so there's a lot of things I have to work on I guess
+Well adding the names works pretty well. And thats all for the things that work flawlessly. Removing the names has to be done from the bottom to the top and can only be removed one at a time otherwise it'll stop working and that's about it. Everything else either doesn't work or works 1/10 times. Most of the time was spent just trying to figure out how to remove things from local stoarge in the first place so there's a lot of things I have to work on I guess
 
 Just feels bad 😔
