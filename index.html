@@ -27,10 +27,30 @@
             <button
               id="addNameBtn"
               class="btn btn-primary"
-              style="color: white; width: 50%"
-            >
+              style="color: white; width: 50%">
               Submit
             </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="dropdown">
+              <select class="form-select mt-3" id="amountOfGroups">
+                <option value="selected">Choose the number of groups</option>
+                <option class="value1">1</option>
+                <option class="value2">2</option>
+                <option class="value3">3</option>
+                <option class="value4">4</option>
+                <option class="value5">5</option>
+                <option class="value6">6</option>
+                <option class="value7">7</option>
+                <option class="value8">8</option>
+                <option class="value9">9</option>
+                <option class="value10">10</option>
+                <option class="value11">11</option>
+                <option class="value12">12</option>
+              </select>
+            </div>
           </div>
         </div>
         <div class="col">
@@ -39,8 +59,7 @@
               <select
                 class="form-select mt-3"
                 aria-label="Default select example"
-                id="groupSizer"
-              >
+                id="groupSizer">
                 <option value="selected">Choose a group size</option>
                 <option class="value1">1</option>
                 <option class="value2">2</option>
@@ -89,16 +108,13 @@
                       data-bs-dismiss="modal"
                       aria-label="Close"></button>
                   </div>
-                  <div class="modal-body">...</div>
+                  <div class="modal-body" id="groupsTxt"></div>
                   <div class="modal-footer">
                     <button
                       type="button"
                       class="btn btn-secondary"
                       data-bs-dismiss="modal">
                       Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
                     </button>
                   </div>
                 </div>
@@ -111,7 +127,7 @@
     </div>
     <br /><br />
     <div class="container" style="background-color: bisque; text-align: center">
-      <div class="row" id="totalNames">Total Names: 0</div>
+      <div class="row"><h3 id="totalNames">Total Names: 0</h3></div>
       <div class="row">
         <div class="container" id="listDiv"><br /><br /><br /></div>
       </div>
